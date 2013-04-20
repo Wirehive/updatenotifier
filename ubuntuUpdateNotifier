@@ -1,7 +1,11 @@
 #!/bin/bash
 
+####CUSTOMISE HERE####
+
 FROM="support@wirehive.net"
-DESTINATION="simon@wirehive.net"
+DESTINATION="support@wirehive.net"
+
+####END CUSTOMISATION####
 
 UPDATES=`apt-get update -qq && apt-get -s dist-upgrade | awk '/^Inst/ { print $2 " - " $3 }' | sort`
 
