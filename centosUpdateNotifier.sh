@@ -2,8 +2,8 @@
 
 ####CUSTOMISE HERE####
 
-FROM="support@wirehive.net"
-DESTINATION="simon@wirehive.net"
+FROM="support@company.com"
+DESTINATION="support@company.com"
 
 ####END CUSTOMISATION####
 
