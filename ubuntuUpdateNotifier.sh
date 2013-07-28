@@ -31,7 +31,7 @@ if type "mysqld" &> /dev/null; then
         MYSQLD=`mysqld -V`
 fi
 
-SUBJECT="$HOSTNAME has updates pending"
+SUBJECT="**UPDATE** $HOSTNAME has updates pending"
 
 mail -a "From:$FROM" -s "$SUBJECT" $DESTINATION << EOF
 System $HOSTNAME has updates waiting to be installed, details below.
